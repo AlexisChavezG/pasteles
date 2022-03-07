@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MisPastelitos</title>
+</head>
+<style>
+        body {
+            margin: 0;
+            margin-bottom: 40px;
+        }
+
+        header{
+            background-color: rgb(248, 191, 248);
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 80px;
+        }
+        #icon{
+            width: 160px;
+            height: 70px;
+            margin: 10px;
+        }
+        h1,h2,h3,h4,h5, label {
+	        font-family: sans-serif;
+        }
+        #titulo{
+            text-align: center;
+        }
+        #menu{
+            width: 18%;
+            height:400px;
+            margin: 10px;
+            border: 1px solid #c3c3c3;
+            text-align: center;
+            float: left;
+        }
+        #imgMenu{
+            width: 150px;
+            height: 150px;
+        }
+        #menuComplementos{
+            width: 18%;
+            height:300px;
+            margin: 10px;
+            border: 1px solid #c3c3c3;
+            text-align: center;
+            float: left;
+        }
+        #tituloMenu{
+            text-align: center;
+        }
+        .bienvenida{
+            width: 100%;
+            height: 300px;
+            background-color: aliceblue;
+        }
+        .bienvenida div{
+            width: 50%;
+            height: 300px;
+            position: relative;
+            float: left;
+        }
+        #contenedorMenu{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #imgPrincipal{
+            max-height: 100%;  
+            max-width: 100%; 
+            position: absolute;  
+            top: 0;  
+            bottom: 0;  
+            left: 0;  
+            right: 0;  
+            margin: auto;
+        }    
+        .bienvenida h2{
+            text-align: center;
+            vertical-align: middle !important;
+        }   
+        #contacto{
+            width: 100%;
+            height: 300px;
+            background-color: black;
+            bottom: 0;
+            display: block;
+        }
+        #contacto h3{
+            color:white;
+            margin: 10px;
+            text-align: center;
+        }
+        #contDiv{
+            height: 100%;
+            width: 50%;
+            float: right;
+        }
+
+
+</style>
+<header>
+    <img id="icon" src="iconOficial.png" alt="misPastelitos"/>
+    <div id="contDiv">
+        <img style="width: 80px;height: 80px;float: left;" src="persona.png"/>
+        <h4>Realizar tu pedido por telefono llamanos al </h4><h4>555-888-52-502</h4>
+    </div>
+</header>
+<body>
+    <div class="bienvenida">
+        <div>
+            <H2 style="margin-top:20%">Bienvenido a Mis Pastelitos</H2>
+            <h3 style="margin-left: 20%;">Horarios de atención: Lunes-Sabado 9:30 am-5:00 pm</h3>
+            <h3 style="margin-left: 20%;">Av. Colima núm. 85 Col.México 28977</h3>
+            <h3 style="margin-left: 20%;">555-888-52-502, </h3>
+
+
+        </div>
+        <div id="logoPastel">
+            <img id="imgPrincipal" src="pastel1.png"/>
+
+        </div>
+    </div>
+        <h2 id="titulo">Menu</h2>
+        <h3 id="titulo">Sabores</h3>
+        <div id="contenedorMenu">
+            <div id="menu">
+                <img id="imgMenu"  src="red_velder.jpg"  alt="pastelFresas"  />
+                <h2>Fresas</h2>
+                <input id="1kf1" name="1kf" type="radio" />
+                <label for="1kf1">1 KG - $100</label>
+                <hr/>
+                <input id="1kf2" name="1kf" type="radio" />
+                <label for="1kf2">2 KG - $200</label>
+                <hr/>
+
+                <input id="1kf3" name="1kf" type="radio" />
+                <label for="1kf3">3 KG - $300</label>
+                <hr/>
+                <input type="checkbox" id="fresaC" name="fresaC" />
+                <label for="fresaC">Combinar</label>
+            </div>
+            <div id="menu">
+                <img id="imgMenu"  src="coco.jpg"  alt="pastelCoco"  />
+                <h2>Coco</h2>
+                <input id="1kc1" name="1kc" type="radio" />
+                <label for="1kc1">1 KG - $100</label>
+                <hr/>
+                <input id="1kc2" name="1kc" type="radio" />
+                <label for="1kc2">2 KG - $200</label>
+                <hr/>
+                <input id="1kc3" name="1kc" type="radio" />
+                <label for="1kc3">3 KG - $300</label>
+                <hr/>
+                <input type="checkbox" id="cocoC" name="cocoC" />
+                <label for="cocoC">Combinar</label>
+            </div>
+            <div id="menu">
+                <img id="imgMenu"  src="chocolate.jpg"  alt="pastelChocolate"  />
+                <h2>chocolate</h2>
+                <input id="1kfCh1" name="1kch" type="radio" />
+                <label for="1kfCh1">1 KG - $100</label>
+                <hr/>
+                <input id="1kfch2" name="1kch" type="radio" />
+                <label for="1kfch2">2 KG - $200</label>
+                <hr/>
+                <input id="1kfch3" name="1kch" type="radio" />
+                <label for="1kfch3">3 KG - $300</label>
+                <hr/>
+                <input type="checkbox" id="chocolateC" name="chocolateC" />
+                <label for="chocolateC">Combinar</label>
+            </div>
+            <div id="menu">
+                <img id="imgMenu"  src="napolitano.jpg"  alt="pastelNapolitano"  />
+                <h2>napolitano</h2>
+                <input id="1kfna1" name="1kfn" type="radio" />
+                <label for="1kfna1">1 KG - $100</label>
+                <hr/>
+                <input id="1kfna2" name="1kfn" type="radio" />
+                <label for="1kfna2">2 KG - $200</label>
+                <hr/>
+                <input id="1kfna3" name="1kfn" type="radio" />
+                <label for="1kfna3">3 KG - $300</label>
+                <hr/>
+                <input type="checkbox" id="napolitanoC" name="napolitanoC" />
+                <label for="napolitanoC">Combinar</label>
+            </div>
+            <div id="menu">
+                <img id="imgMenu"  src="zanahoria.jpg"  alt="pastelZanaoria"  />
+                <h2>Zanahoria</h2>
+                <input id="1kfz1" name="1kfz" type="radio" />
+                <label for="1kfz1">1 KG - $100</label>
+                <hr/>
+                <input id="1kfz2" name="1kfz" type="radio" />
+                <label for="1kfz2">2 KG - $200</label>
+                <hr/>
+                <input id="1kfz3" name="1kfz" type="radio" />
+                <label for="1kfz3">3 KG - $300</label>
+                <hr/>
+                <input type="checkbox" id="zanaoriaC" name="zanaoriaC" />
+                <label for="zanaoriaC">Combinar</label>
+            </div>
+        </div>
+
+        <h3 id="titulo">Complementos</h3>
+        <div id="contenedorMenu">
+            <div id="menuComplementos">
+                <img id="imgMenu"  src="chispas.jpg"  alt="pastelChispas"  />
+                <h5>Chiapas de colores</h5>
+                <input type="checkbox" id="chispas" name="chispas" />
+                <label for="chispas">Agregar al pastel</label>
+            </div>
+            <div id="menuComplementos">
+                <img id="imgMenu"  src="duraznos.jpg"  alt="pastelDurazno"  />
+                <h5>Duraznos</h5>
+                <input type="checkbox" id="duraznos" name="duraznos" />
+                <label for="duraznos">Agregar al pastel</label>
+            </div>
+            <div id="menuComplementos">
+                <img id="imgMenu"  src="fresa1s.jpg"  alt="pastelFresas"  />
+                <h5>Fresas</h5>
+                <input type="checkbox" id="fresas" name="fresas" />
+                <label for="fresas">Agregar al pastel</label>
+            </div>
+            <div id="menuComplementos">
+                <img id="imgMenu"  src="gomitas.jpg"  alt="pastelGomitas"  />
+                <h5>Gomitas</h5>
+                <input type="checkbox" id="gomitas" name="gomitas" />
+                <label for="gomitas">Agregar al pastel</label>
+            </div>
+            <div id="menuComplementos">
+                <img id="imgMenu"  src="me.jpg"  alt="pastelEma"  />
+                <h5>M&E</h5>
+                <input type="checkbox" id="me" name="me" />
+                <label for="me">Agregar al pastel</label>
+            </div>
+        </div>
+        <H3>Realizar pedido</H3>
+        <div id="contacto">
+            <h3>Completa la información para ingresar tu pedido</h3>
+            <label for="nombre"style="color:white">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" maxlength="100"/>
+
+            <label for="telefono"style="color:white">Núm. teléfono</label>
+            <input type="text" id="telefono" name="telefono" maxlength="10" />
+
+            <label for="correo"style="color:white">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" maxlength="50" />
+            <h3 style="color: white;">Resumen de pedido</h3>
+            <h4 style="color: white;">Pastel sabor </h4>
+            <h5 style="color: white;">Cholocolate</h5>
+
+            <h4 style="color: white;">Complementos </h4>
+            <h5 style="color: white;">Chipas de colores, Durazanos</h5>
+            <input type="button" value="Realizar pedido" />
+        </div>
+
+
+</body>
+
+
+</html>
